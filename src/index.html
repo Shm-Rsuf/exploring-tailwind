@@ -7,7 +7,26 @@
     <link rel="stylesheet" href="./index.css" />
     <title>exploring tailwind css</title>
   </head>
-  <body>
-    <h1 class="text-4xl">Hello tailwind!</h1>
+  <body class="bg-gray-200">
+    <section class="container mx-auto py-10 flex justify-center">
+      <div
+        class="card flex flex-col gap-5 bg-white w-96 h-96 shadow-md p-10 rounded-lg"
+      >
+        <h1 class="text-3xl font-semibold text-rose-400">
+          exploring tailwindcss!
+        </h1>
+        <p class="text-lg text-justify leading-6">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius harum
+          eveniet debitis. Reiciendis expedita animi cumque placeat ut sint
+          architecto mollitia possimus porro illum iste repellendus iusto, vitae
+          sunt sapiente.
+        </p>
+        <a
+          class="bg-rose-500 py-2 px-4 text-white rounded-full block text-center uppercase tracking-wider font-bold font-sans hover:bg-slate-700 duration-500 ease-in"
+          href="#"
+          >click me</a
+        >
+      </div>
+    </section>
   </body>
 </html>
